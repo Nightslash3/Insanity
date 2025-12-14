@@ -125,6 +125,11 @@ massive = {
 		uk: "Це повідомлення було видалено",
 		ru: "Это сообщение было удалено",
 	},
+	deleted: {
+		"en-GB": "deleted",
+		uk: "видалено",
+		ru: "удалено",
+	},
 };
 
 export const locale = () => vendetta.metro.findByStoreName("LocaleStore").locale;
